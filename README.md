@@ -14,6 +14,10 @@ python3 polymarket_cli.py market 0x80dbcce5a1e4e4a1dc
 # WebSocket Streams
 python3 websocket/live_tracker.py       # Real-time market data
 python3 rtds/comments_stream.py         # Real-time comments
+
+# Subgraph (On-chain Data)
+python3 subgraph/whale_tracker.py whales 5000
+python3 subgraph/volume_analytics.py oi
 ```
 
 ## Project Structure
@@ -26,6 +30,10 @@ websocket/
   └── market_stream.py     # Basic market websocket
 rtds/
   └── comments_stream.py   # Real-time comments feed
+subgraph/
+  ├── client.py            # GraphQL subgraph client
+  ├── whale_tracker.py     # Large trades & positions
+  └── volume_analytics.py  # Market volume & on-chain activity
 API_GUIDE.md               # Complete API documentation
 ```
 
@@ -43,6 +51,13 @@ API_GUIDE.md               # Complete API documentation
 - ✅ Live price changes
 - ✅ Trade execution monitoring
 - ✅ Real-time comments feed
+
+**Subgraph (On-chain):**
+- ✅ Whale tracking (large trades)
+- ✅ User positions with PnL
+- ✅ Market volume analytics
+- ✅ On-chain splits/redemptions
+- ✅ Global open interest
 
 No authentication required for public data.
 
@@ -66,6 +81,9 @@ $ python3 polymarket_cli.py search "government shutdown"
 **WebSocket:**
 - `wss://ws-subscriptions-clob.polymarket.com/ws/market` - Order book
 - `wss://ws-live-data.polymarket.com` - Comments & crypto prices
+
+**Subgraph (GraphQL):**
+- Orders, Positions, Activity, Open Interest, PNL subgraphs via Goldsky
 
 See [API_GUIDE.md](API_GUIDE.md) for complete documentation.
 
