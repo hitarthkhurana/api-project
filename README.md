@@ -1,33 +1,50 @@
-# Polymarket CLI
+# Polymarket API Explorer
 
-Python CLI for querying Polymarket prediction markets via REST APIs.
+Python tools for Polymarket prediction markets - REST APIs and WebSocket streams.
 
 ## Quick Start
 
 ```bash
 pip install -r requirements.txt
 
+# REST API
 python3 polymarket_cli.py search "trump"
-python3 polymarket_cli.py event when-will-the-government-shutdown-end
 python3 polymarket_cli.py market 0x80dbcce5a1e4e4a1dc
-python3 polymarket_cli.py trending
+
+# WebSocket Streams
+python3 websocket/live_tracker.py       # Real-time market data
+python3 rtds/comments_stream.py         # Real-time comments
 ```
 
-## Structure
+## Project Structure
 
 ```
-api_client.py      # API wrapper (~40 lines)
-polymarket_cli.py  # CLI interface (~200 lines)
-API_GUIDE.md       # API documentation
+api_client.py              # REST API wrapper
+polymarket_cli.py          # CLI tool
+websocket/
+  ├── live_tracker.py      # Enhanced market stream with analytics
+  └── market_stream.py     # Basic market websocket
+rtds/
+  └── comments_stream.py   # Real-time comments feed
+API_GUIDE.md               # Complete API documentation
 ```
 
 ## Features
 
-- ✅ **Search** - Find current markets (uses `/public-search`)
-- ✅ **Event details** - Get all markets for an event
-- ✅ **Market odds** - View prices and implied probabilities  
-- ⚠️ **Active markets** - List active markets (not sorted by volume like website)
-- No authentication required
+**REST API:**
+- ✅ Search current markets (`/public-search`)
+- ✅ Event details with all markets
+- ✅ Market odds and implied probabilities
+- ✅ Active markets listing
+
+**WebSocket Streams:**
+- ✅ Real-time order book updates
+- ✅ Bid-ask spread analytics
+- ✅ Live price changes
+- ✅ Trade execution monitoring
+- ✅ Real-time comments feed
+
+No authentication required for public data.
 
 ## Verified Working
 
@@ -39,16 +56,19 @@ $ python3 polymarket_cli.py search "government shutdown"
    Volume: $2,282,650 | Markets: 6
 ```
 
-**All endpoints tested Oct 3, 2025 - returns current data**
+## Endpoints Used
 
-## API Endpoints Used
+**REST:**
+- `GET /public-search` - Search markets
+- `GET /sampling-simplified-markets` - Live prices/odds
+- `GET /sampling-markets` - Active markets
 
-- `GET /public-search` - Search markets (Gamma)
-- `GET /sampling-markets` - Active markets (CLOB)
-- `GET /sampling-simplified-markets` - Prices/odds (CLOB)
+**WebSocket:**
+- `wss://ws-subscriptions-clob.polymarket.com/ws/market` - Order book
+- `wss://ws-live-data.polymarket.com` - Comments & crypto prices
 
-See [API_GUIDE.md](API_GUIDE.md) for details.
+See [API_GUIDE.md](API_GUIDE.md) for complete documentation.
 
 ## Tech Stack
 
-Python 3 • requests • Polymarket APIs
+Python 3 • requests • websocket-client • Polymarket APIs
