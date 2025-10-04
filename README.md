@@ -18,6 +18,10 @@ python3 rtds/comments_stream.py         # Real-time comments
 # Subgraph (On-chain Data)
 python3 subgraph/whale_tracker.py whales 5000
 python3 subgraph/volume_analytics.py oi
+
+# Market Analytics
+python3 analytics/liquidity_analyzer.py depth <token_id>
+python3 analytics/top_markets.py volume 10
 ```
 
 ## Project Structure
@@ -33,8 +37,12 @@ rtds/
 subgraph/
   ├── client.py            # GraphQL subgraph client
   ├── whale_tracker.py     # Large trades & positions
-  └── volume_analytics.py  # Market volume & on-chain activity
-API_GUIDE.md               # Complete API documentation
+  ├── volume_analytics.py  # Market volume & on-chain activity
+  └── top_holders.py       # Token holder analysis
+analytics/
+  ├── liquidity_analyzer.py # Order book depth & slippage
+  └── top_markets.py        # Most active markets
+API_GUIDE.md                # Complete API documentation
 ```
 
 ## Features
@@ -58,6 +66,13 @@ API_GUIDE.md               # Complete API documentation
 - ✅ Market volume analytics
 - ✅ On-chain splits/redemptions
 - ✅ Global open interest
+- ✅ Top token holders
+
+**Market Analytics:**
+- ✅ Order book depth analysis
+- ✅ Slippage calculator
+- ✅ Top markets by volume/trades
+- ✅ Liquidity metrics
 
 No authentication required for public data.
 
