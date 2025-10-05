@@ -42,4 +42,3 @@ class PolymarketAPI:
         """Get market categories/tags"""
         response = requests.get(f"{GAMMA_API}/tags", timeout=10)
         return response.json() if response.status_code == 200 else []
-
