@@ -1,107 +1,67 @@
-# Polymarket API Explorer
+# Polymarket Projects
 
-Python tools for Polymarket prediction markets - REST APIs and WebSocket streams.
+Two projects exploring Polymarket's APIs and prediction markets.
 
-## Quick Start
+## 📊 Event Network (market-network/)
 
+**Interactive visualization showing which prediction markets share common traders.**
+
+Uses force-directed graph (D3.js) to reveal market correlations based on trader overlap. Helps identify cross-market patterns and trader behavior.
+
+**Tech:** Next.js, TypeScript, Tailwind, shadcn/ui, D3.js  
+**APIs:** Gamma (market data), PNL Subgraph (trader positions)
+
+[See market-network/README.md](market-network/README.md)
+
+---
+
+## 🔧 API Testing Tools (api-testing/)
+
+Python CLI tools and scripts for Polymarket API exploration:
+
+- **REST APIs:** Search markets, get odds, active markets
+- **WebSocket:** Real-time market data and comments
+- **Subgraph:** Whale tracking, volume analytics, top holders
+- **Analytics:** Liquidity depth, slippage, top markets
+
+**Quick Start:**
 ```bash
+cd api-testing
 pip install -r requirements.txt
 
-# REST API
-python3 polymarket_cli.py search "trump"
-python3 polymarket_cli.py market 0x80dbcce5a1e4e4a1dc
+# Search markets
+python3 polymarket_cli.py search "election"
 
-# WebSocket Streams
-python3 websocket/live_tracker.py       # Real-time market data
-python3 rtds/comments_stream.py         # Real-time comments
+# Real-time data
+python3 websocket/live_tracker.py
 
-# Subgraph (On-chain Data)
-python3 subgraph/whale_tracker.py whales 5000
-python3 subgraph/volume_analytics.py oi
-
-# Market Analytics
-python3 analytics/liquidity_analyzer.py depth <token_id>
+# Analytics
 python3 analytics/top_markets.py volume 10
 ```
+
+[See api-testing/ for full documentation](api-testing/)
+
+---
 
 ## Project Structure
 
 ```
-api_client.py              # REST API wrapper
-polymarket_cli.py          # CLI tool
-websocket/
-  ├── live_tracker.py      # Enhanced market stream with analytics
-  └── market_stream.py     # Basic market websocket
-rtds/
-  └── comments_stream.py   # Real-time comments feed
-subgraph/
-  ├── client.py            # GraphQL subgraph client
-  ├── whale_tracker.py     # Large trades & positions
-  ├── volume_analytics.py  # Market volume & on-chain activity
-  └── top_holders.py       # Token holder analysis
-analytics/
-  ├── liquidity_analyzer.py # Order book depth & slippage
-  └── top_markets.py        # Most active markets
-API_GUIDE.md                # Complete API documentation
+api-project/
+├── market-network/       # Frontend visualization project
+│   ├── scripts/          # Data fetching (Python)
+│   └── public/           # Static data & frontend
+│
+└── api-testing/          # API exploration tools
+    ├── polymarket_cli.py # Main CLI
+    ├── websocket/        # Real-time streams
+    ├── subgraph/         # On-chain data queries
+    └── analytics/        # Market analysis tools
 ```
-
-## Features
-
-**REST API:**
-- ✅ Search current markets (`/public-search`)
-- ✅ Event details with all markets
-- ✅ Market odds and implied probabilities
-- ✅ Active markets listing
-
-**WebSocket Streams:**
-- ✅ Real-time order book updates
-- ✅ Bid-ask spread analytics
-- ✅ Live price changes
-- ✅ Trade execution monitoring
-- ✅ Real-time comments feed
-
-**Subgraph (On-chain):**
-- ✅ Whale tracking (large trades)
-- ✅ User positions with PnL
-- ✅ Market volume analytics
-- ✅ On-chain splits/redemptions
-- ✅ Global open interest
-- ✅ Top token holders
-
-**Market Analytics:**
-- ✅ Order book depth analysis
-- ✅ Slippage calculator
-- ✅ Top markets by volume/trades
-- ✅ Liquidity metrics
-
-No authentication required for public data.
-
-## Verified Working
-
-**Search finds LIVE markets:**
-```bash
-$ python3 polymarket_cli.py search "government shutdown"
-✅ Found 4 events
-1. 🟢 When will the Government shutdown end?
-   Volume: $2,282,650 | Markets: 6
-```
-
-## Endpoints Used
-
-**REST:**
-- `GET /public-search` - Search markets
-- `GET /sampling-simplified-markets` - Live prices/odds
-- `GET /sampling-markets` - Active markets
-
-**WebSocket:**
-- `wss://ws-subscriptions-clob.polymarket.com/ws/market` - Order book
-- `wss://ws-live-data.polymarket.com` - Comments & crypto prices
-
-**Subgraph (GraphQL):**
-- Orders, Positions, Activity, Open Interest, PNL subgraphs via Goldsky
-
-See [API_GUIDE.md](API_GUIDE.md) for complete documentation.
 
 ## Tech Stack
 
-Python 3 • requests • websocket-client • Polymarket APIs
+**Frontend:** Next.js, TypeScript, Tailwind CSS, shadcn/ui, D3.js  
+**Backend/Scripts:** Python 3, requests, websocket-client  
+**APIs:** Gamma (REST), CLOB (REST), Subgraphs (GraphQL), WebSocket
+
+No authentication required for read-only endpoints.

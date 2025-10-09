@@ -1,0 +1,3871 @@
+{
+  "nodes": [
+    {
+      "id": "super-bowl-champion-2026-731",
+      "label": "Super Bowl Champion 2026",
+      "category": "Sports",
+      "traders": 26979,
+      "volume": 136471653.787798
+    },
+    {
+      "id": "democratic-presidential-nominee-2028",
+      "label": "Democratic Presidential Nominee 2028",
+      "category": "Politics",
+      "traders": 8962,
+      "volume": 97149499.43792799
+    },
+    {
+      "id": "english-premier-league-winner",
+      "label": "English Premier League Winner ",
+      "category": "Sports",
+      "traders": 11598,
+      "volume": 47580959.313069
+    },
+    {
+      "id": "new-york-city-mayoral-election",
+      "label": "New York City Mayoral Election",
+      "category": "Politics",
+      "traders": 12416,
+      "volume": 136877833.03510898
+    },
+    {
+      "id": "fed-decision-in-october",
+      "label": "Fed decision in October?",
+      "category": "Politics",
+      "traders": 6370,
+      "volume": 52553029.68305
+    },
+    {
+      "id": "presidential-election-winner-2028",
+      "label": "Presidential Election Winner 2028",
+      "category": "Politics",
+      "traders": 56,
+      "volume": 42794038.026015006
+    },
+    {
+      "id": "nobel-peace-prize-2025",
+      "label": "Nobel Peace Prize 2025",
+      "category": "Entertainment",
+      "traders": 3736,
+      "volume": 23650460.24974
+    },
+    {
+      "id": "mlb-mil-chc-2025-10-08",
+      "label": "Brewers vs. Cubs",
+      "category": "Sports",
+      "traders": 736,
+      "volume": 2189855.201065
+    },
+    {
+      "id": "first-leader-out-of-power-in-2025",
+      "label": "First leader out of power in 2025?",
+      "category": "Politics",
+      "traders": 21757,
+      "volume": 15603387.648394
+    },
+    {
+      "id": "republican-presidential-nominee-2028",
+      "label": "Republican Presidential Nominee 2028",
+      "category": "Politics",
+      "traders": 12513,
+      "volume": 30370027.657546993
+    },
+    {
+      "id": "mlb-sea-det-2025-10-08",
+      "label": "Mariners vs. Tigers",
+      "category": "Sports",
+      "traders": 943,
+      "volume": 1559486.784481
+    },
+    {
+      "id": "nobel-peace-prize-winner-2025",
+      "label": "Nobel Peace Prize Winner 2025 ",
+      "category": "Entertainment",
+      "traders": 13621,
+      "volume": 11460825.734274998
+    },
+    {
+      "id": "f1-drivers-champion",
+      "label": "F1 Drivers Champion",
+      "category": "Sports",
+      "traders": 21704,
+      "volume": 122729289.608938
+    },
+    {
+      "id": "monad-airdrop-by",
+      "label": "Monad airdrop by...?",
+      "category": "Crypto",
+      "traders": 3069,
+      "volume": 2369677.754809
+    },
+    {
+      "id": "when-will-israel-announce-ceasefire",
+      "label": "When will Israel announce ceasefire? ",
+      "category": "Politics",
+      "traders": 687,
+      "volume": 1771087.7137739996
+    },
+    {
+      "id": "elon-musk-of-tweets-october-3-october-10",
+      "label": "Elon Musk # tweets October 3 - October 10, 2025?",
+      "category": "Culture",
+      "traders": 2696,
+      "volume": 3027016.1128559997
+    },
+    {
+      "id": "uefa-champions-league-winner",
+      "label": "UEFA Champions League Winner ",
+      "category": "Sports",
+      "traders": 11126,
+      "volume": 20235417.891969
+    },
+    {
+      "id": "highest-grossing-movie-in-2025",
+      "label": "Highest grossing movie in 2025?",
+      "category": "Entertainment",
+      "traders": 16557,
+      "volume": 36034754.695612
+    },
+    {
+      "id": "bitcoin-above-on-october-9",
+      "label": "Bitcoin above ___ on October 9?",
+      "category": "Crypto",
+      "traders": 971,
+      "volume": 1894916.692833
+    },
+    {
+      "id": "2026-nba-champion",
+      "label": "2026 NBA Champion",
+      "category": "Sports",
+      "traders": 20264,
+      "volume": 14638446.350177
+    },
+    {
+      "id": "la-liga-winner-114",
+      "label": "La Liga Winner ",
+      "category": "Sports",
+      "traders": 4163,
+      "volume": 6226758.844408999
+    },
+    {
+      "id": "what-price-will-ethereum-hit-in-october-167",
+      "label": "What price will Ethereum hit in October?",
+      "category": "Crypto",
+      "traders": 4815,
+      "volume": 3829679.485891
+    },
+    {
+      "id": "what-price-will-bitcoin-hit-in-october-985",
+      "label": "What price will Bitcoin hit in October?",
+      "category": "Crypto",
+      "traders": 6455,
+      "volume": 7178184.060786
+    },
+    {
+      "id": "nhl-lak-las-2025-10-08",
+      "label": "Kings vs. Golden Knights",
+      "category": "Sports",
+      "traders": 401,
+      "volume": 969685.292522
+    },
+    {
+      "id": "cfb-msrst-mtnst-2025-10-08",
+      "label": "Missouri State vs. Middle Tennessee",
+      "category": "Sports",
+      "traders": 795,
+      "volume": 905319.6249630001
+    },
+    {
+      "id": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "label": "Will Hamas release all Israeli hostages by...?",
+      "category": "Politics",
+      "traders": 1961,
+      "volume": 1295675.415324
+    },
+    {
+      "id": "top-spotify-album-2025",
+      "label": "Top Spotify Album 2025",
+      "category": "Culture",
+      "traders": 1905,
+      "volume": 1057560.663356
+    },
+    {
+      "id": "nfl-phi-nyg-2025-10-09",
+      "label": "Eagles vs. Giants",
+      "category": "Sports",
+      "traders": 591,
+      "volume": 550066.9177710001
+    },
+    {
+      "id": "xi-jinping-out-in-2025",
+      "label": "Xi Jinping out in 2025?",
+      "category": "Politics",
+      "traders": 1803,
+      "volume": 16702896.04386
+    },
+    {
+      "id": "when-will-the-government-shutdown-end",
+      "label": "When will the Government shutdown end?",
+      "category": "Politics",
+      "traders": 4453,
+      "volume": 5283621.551051
+    },
+    {
+      "id": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "label": "What will Taylor Swift say during Tonight Show on October 6?",
+      "category": "Culture",
+      "traders": 574,
+      "volume": 895097.6437150001
+    },
+    {
+      "id": "what-price-will-bitcoin-hit-in-2025",
+      "label": "What price will Bitcoin hit in 2025?",
+      "category": "Crypto",
+      "traders": 14689,
+      "volume": 31116381.634359997
+    },
+    {
+      "id": "solana-price-on-october-9",
+      "label": "Solana price on October 9?",
+      "category": "Crypto",
+      "traders": 231,
+      "volume": 695655.8897930001
+    },
+    {
+      "id": "world-series-champion-2025",
+      "label": "World Series Champion 2025",
+      "category": "Sports",
+      "traders": 30571,
+      "volume": 64381810.05875399
+    },
+    {
+      "id": "ethereum-price-on-october-9",
+      "label": "Ethereum price on October 9?",
+      "category": "Crypto",
+      "traders": 126,
+      "volume": 779630.2389589997
+    },
+    {
+      "id": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "label": "Which song Taylor Swift's \"The Life of a Showgirl\" will be lowest rank on the Billboard Hot 100 for the week of October 18?",
+      "category": "Entertainment",
+      "traders": 748,
+      "volume": 468413.28230500006
+    },
+    {
+      "id": "oscars-2026-best-actor-winner",
+      "label": "Oscars 2026: Best Actor Winner",
+      "category": "Entertainment",
+      "traders": 1244,
+      "volume": 837828.752337
+    },
+    {
+      "id": "next-french-prime-minister-469",
+      "label": "Next French Prime Minister",
+      "category": "Politics",
+      "traders": 756,
+      "volume": 371513.49992100004
+    },
+    {
+      "id": "oscars-2026-best-picture-winner",
+      "label": "Oscars 2026: Best Picture Winner",
+      "category": "Entertainment",
+      "traders": 5224,
+      "volume": 4725827.01321
+    },
+    {
+      "id": "richest-person-on-october-31",
+      "label": "Richest person on October 31?",
+      "category": "Tech",
+      "traders": 1258,
+      "volume": 686284.3809179999
+    },
+    {
+      "id": "netherlands-parliamentary-election",
+      "label": "Netherlands Parliamentary Election",
+      "category": "Politics",
+      "traders": 9498,
+      "volume": 10901816.018072
+    },
+    {
+      "id": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "label": "Which party holds the most seats after Argentina Deputies Election?",
+      "category": "Politics",
+      "traders": 10970,
+      "volume": 10434079.623049999
+    },
+    {
+      "id": "what-price-will-ethereum-hit-in-2025",
+      "label": "What price will Ethereum hit in 2025?",
+      "category": "Crypto",
+      "traders": 12654,
+      "volume": 22557235.376745008
+    },
+    {
+      "id": "bolivia-presidential-election",
+      "label": "Bolivia Presidential Election",
+      "category": "Politics",
+      "traders": 13027,
+      "volume": 15259148.877244
+    },
+    {
+      "id": "2025-national-heads-up-poker-championship-winner-845",
+      "label": "2025 National Heads-Up Poker Championship Winner",
+      "category": "Sports",
+      "traders": 873,
+      "volume": 2753408.952969001
+    },
+    {
+      "id": "will-polymarket-us-go-live-in-2025",
+      "label": "Will Polymarket US go live in 2025?",
+      "category": "Politics",
+      "traders": 1967,
+      "volume": 3278148.375116
+    },
+    {
+      "id": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "label": "'The Life of a Showgirl' first week album sales?",
+      "category": "Entertainment",
+      "traders": 1394,
+      "volume": 1149809.666164
+    },
+    {
+      "id": "bitcoin-price-on-october-9",
+      "label": "Bitcoin price on October 9?",
+      "category": "Crypto",
+      "traders": 195,
+      "volume": 248509.340449
+    },
+    {
+      "id": "next-japanese-prime-minister",
+      "label": "Next Japanese Prime Minister",
+      "category": "Politics",
+      "traders": 2102,
+      "volume": 2856491.907666
+    },
+    {
+      "id": "what-price-will-solana-hit-in-october-452",
+      "label": "What price will Solana hit in October?",
+      "category": "Crypto",
+      "traders": 1654,
+      "volume": 1735521.3770149997
+    },
+    {
+      "id": "elon-musk-of-tweets-october-7-october-14",
+      "label": "Elon Musk # tweets October 7 - October 14, 2025?",
+      "category": "Culture",
+      "traders": 491,
+      "volume": 249647.39132599998
+    },
+    {
+      "id": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "label": "Will Hamas release any more hostages by October 31?",
+      "category": "Politics",
+      "traders": 893,
+      "volume": 390249.514671
+    },
+    {
+      "id": "top-spotify-artist-2025-146",
+      "label": "Top Spotify Artist 2025",
+      "category": "Culture",
+      "traders": 3389,
+      "volume": 4340388.146699
+    },
+    {
+      "id": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "label": "Which party gains most seats in Argentina Deputies Election?",
+      "category": "Politics",
+      "traders": 9661,
+      "volume": 3811411.879767
+    },
+    {
+      "id": "nhl-bos-wsh-2025-10-08",
+      "label": "Bruins vs. Capitals",
+      "category": "Sports",
+      "traders": 313,
+      "volume": 148319.204796
+    },
+    {
+      "id": "ireland-presidential-election",
+      "label": "Ireland Presidential Election",
+      "category": "Politics",
+      "traders": 15026,
+      "volume": 9143595.235833002
+    },
+    {
+      "id": "french-election-called-by",
+      "label": "French election called by...?",
+      "category": "Politics",
+      "traders": 732,
+      "volume": 269962.643925
+    },
+    {
+      "id": "what-price-will-bitcoin-hit-october-6-12",
+      "label": "What price will Bitcoin hit October 6-12?",
+      "category": "Crypto",
+      "traders": 632,
+      "volume": 438558.57179400005
+    },
+    {
+      "id": "macron-out-in-2025",
+      "label": "Macron out by...?",
+      "category": "Politics",
+      "traders": 1148,
+      "volume": 918924.93606
+    },
+    {
+      "id": "will-russia-capture-kupiansk-by",
+      "label": "Will Russia capture Kupiansk by...?",
+      "category": "Politics",
+      "traders": 4410,
+      "volume": 3452406.9648599997
+    },
+    {
+      "id": "what-price-will-xrp-hit-in-october",
+      "label": "What price will XRP hit in October?",
+      "category": "Crypto",
+      "traders": 885,
+      "volume": 1883684.228944
+    },
+    {
+      "id": "israel-withdraws-from-gaza-in-2025",
+      "label": "Israel withdraws from Gaza in 2025?",
+      "category": "Politics",
+      "traders": 1829,
+      "volume": 1738597.562224
+    },
+    {
+      "id": "solana-above-on-october-10",
+      "label": "Solana above ___ on October 10?",
+      "category": "Politics",
+      "traders": 55,
+      "volume": 143288.672188
+    },
+    {
+      "id": "largest-company-end-of-october-716",
+      "label": "Largest company end of October?",
+      "category": "Politics",
+      "traders": 1765,
+      "volume": 748974.160237
+    },
+    {
+      "id": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "label": "#1 Free App in the US Apple App Store on October 10?",
+      "category": "Tech",
+      "traders": 2340,
+      "volume": 1038147.103078
+    },
+    {
+      "id": "which-company-has-best-ai-model-end-of-october",
+      "label": "Which company has best AI model end of October?",
+      "category": "Tech",
+      "traders": 1399,
+      "volume": 911048.4556120001
+    },
+    {
+      "id": "turnout-in-next-new-york-city-mayoral-election",
+      "label": "Turnout in Next New York City Mayoral Election?",
+      "category": "Politics",
+      "traders": 27,
+      "volume": 86924.22151
+    },
+    {
+      "id": "will-base-launch-a-token-in-2025-341",
+      "label": "Will Base launch a token in 2025?",
+      "category": "Crypto",
+      "traders": 1366,
+      "volume": 550248.563836
+    },
+    {
+      "id": "black-phone-2-rotten-tomatoes-score",
+      "label": "\"Black Phone 2\" Rotten Tomatoes score?",
+      "category": "Culture",
+      "traders": 8,
+      "volume": 83467.02040000001
+    },
+    {
+      "id": "nhl-cal-edm-2025-10-08",
+      "label": "Flames vs. Oilers",
+      "category": "Sports",
+      "traders": 433,
+      "volume": 264210.92308599997
+    },
+    {
+      "id": "meteora-fdv-above-one-day-after-launch",
+      "label": "Meteora FDV above ___ one day after launch?",
+      "category": "Crypto",
+      "traders": 1821,
+      "volume": 660150.973665
+    },
+    {
+      "id": "russia-x-ukraine-ceasefire-in-2025",
+      "label": "Russia x Ukraine ceasefire in 2025?",
+      "category": "Politics",
+      "traders": 1918,
+      "volume": 20526476.202621
+    },
+    {
+      "id": "will-trump-meet-with-putin-again-by",
+      "label": "Will Trump meet with Putin again by...?",
+      "category": "Politics",
+      "traders": 2365,
+      "volume": 1711175.1355710002
+    },
+    {
+      "id": "how-many-fed-rate-cuts-in-2025",
+      "label": "How many Fed rate cuts in 2025?",
+      "category": "Politics",
+      "traders": 13429,
+      "volume": 18739757.062434003
+    },
+    {
+      "id": "largest-company-end-of-2025",
+      "label": "Largest Company end of 2025?",
+      "category": "Politics",
+      "traders": 9998,
+      "volume": 5348793.420357999
+    },
+    {
+      "id": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "label": "What will Trump say during President of Finland events on October 9?",
+      "category": "Culture",
+      "traders": 623,
+      "volume": 160270.929652
+    },
+    {
+      "id": "turnout-in-2025-netherlands-parliamentary-election",
+      "label": "Turnout in 2025 Netherlands Parliamentary Election?",
+      "category": "Politics",
+      "traders": 557,
+      "volume": 152279.62849999996
+    },
+    {
+      "id": "lighter-market-cap-fdv-one-day-after-launch",
+      "label": "Lighter market cap (FDV) one day after launch?",
+      "category": "Politics",
+      "traders": 1629,
+      "volume": 1059866.6130899999
+    },
+    {
+      "id": "gemini-3pt0-released-by",
+      "label": "Gemini 3.0 released by...?",
+      "category": "Tech",
+      "traders": 1990,
+      "volume": 1055567.0868060002
+    },
+    {
+      "id": "dana-whites-contender-series-season-9-week-9",
+      "label": "Dana White's Contender Series: Season 9, Week 9",
+      "category": "Sports",
+      "traders": 85,
+      "volume": 79654.968071
+    },
+    {
+      "id": "will-metamask-launch-a-token-in-2025",
+      "label": "Will MetaMask launch a token in 2025?",
+      "category": "Crypto",
+      "traders": 1923,
+      "volume": 1072792.782492
+    },
+    {
+      "id": "us-x-venezuela-military-engagement-by-october-31",
+      "label": "US x Venezuela military engagement by...?",
+      "category": "Politics",
+      "traders": 3716,
+      "volume": 2637683.6186570004
+    },
+    {
+      "id": "what-price-will-ethereum-hit-october-6-12",
+      "label": "What price will Ethereum hit October 6-12?",
+      "category": "Crypto",
+      "traders": 374,
+      "volume": 274402.389148
+    },
+    {
+      "id": "bitcoin-above-on-october-10",
+      "label": "Bitcoin above ___ on October 10?",
+      "category": "Crypto",
+      "traders": 246,
+      "volume": 306303.78619899997
+    },
+    {
+      "id": "will-hurricane-imelda-make-landfall-in-the-us",
+      "label": "Will Hurricane Imelda make landfall in the US?",
+      "category": "Culture",
+      "traders": 132,
+      "volume": 77475.875551
+    },
+    {
+      "id": "2nd-place-in-new-york-city-mayoral-election",
+      "label": " 2nd Place in New York City Mayoral Election",
+      "category": "Politics",
+      "traders": 4333,
+      "volume": 4145109.6905480004
+    },
+    {
+      "id": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "label": "2025 September 1st, 2nd, 3rd hottest on record?",
+      "category": "Culture",
+      "traders": 347,
+      "volume": 444796.666239
+    },
+    {
+      "id": "tron-ares-opening-weekend-box-office",
+      "label": "\"Tron: Ares\" Opening Weekend Box Office",
+      "category": "Entertainment",
+      "traders": 140,
+      "volume": 87553.48723099999
+    },
+    {
+      "id": "ethereum-above-on-october-9",
+      "label": "Ethereum above ___ on October 9?",
+      "category": "Crypto",
+      "traders": 395,
+      "volume": 360760.385981
+    },
+    {
+      "id": "nfl-ten-lv-2025-10-12",
+      "label": "Titans vs. Raiders",
+      "category": "Sports",
+      "traders": 96,
+      "volume": 66831.44970799999
+    },
+    {
+      "id": "maduro-out-in-2025",
+      "label": "Maduro out in 2025?",
+      "category": "Politics",
+      "traders": 1433,
+      "volume": 2031590.063523
+    },
+    {
+      "id": "which-company-has-best-ai-model-end-of-2025",
+      "label": "Which company has best AI model end of 2025?",
+      "category": "Tech",
+      "traders": 8888,
+      "volume": 4378646.136646999
+    },
+    {
+      "id": "who-will-trump-pardon-in-2025",
+      "label": "Who will Trump pardon in 2025?",
+      "category": "Politics",
+      "traders": 12200,
+      "volume": 3624454.5894009997
+    },
+    {
+      "id": "which-company-has-second-best-ai-model-end-of-october",
+      "label": "Which company has second best AI model end of October?",
+      "category": "Tech",
+      "traders": 655,
+      "volume": 244403.73915700003
+    },
+    {
+      "id": "israel-strikes-iran-by-october-31",
+      "label": "Israel strikes Iran by October 31?",
+      "category": "Politics",
+      "traders": 1142,
+      "volume": 696489.299379
+    },
+    {
+      "id": "brazil-presidential-election",
+      "label": "Brazil Presidential Election",
+      "category": "Politics",
+      "traders": 619,
+      "volume": 238460.88598
+    },
+    {
+      "id": "bitcoin-up-or-down-on-october-9",
+      "label": "Bitcoin Up or Down on October 9?",
+      "category": "Crypto",
+      "traders": 243,
+      "volume": 84754.532932
+    },
+    {
+      "id": "israel-strikes-iran-before-2026",
+      "label": "Israel strikes Iran before 2026?",
+      "category": "Politics",
+      "traders": 918,
+      "volume": 541375.858261
+    },
+    {
+      "id": "nba-por-gsw-2025-10-08",
+      "label": "Trail Blazers vs. Warriors",
+      "category": "Sports",
+      "traders": 616,
+      "volume": 160364.39080499997
+    },
+    {
+      "id": "nfl-ari-ind-2025-10-12",
+      "label": "Cardinals vs. Colts",
+      "category": "Sports",
+      "traders": 106,
+      "volume": 70792.140352
+    }
+  ],
+  "edges": [
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "democratic-presidential-nominee-2028",
+      "weight": 8.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "english-premier-league-winner",
+      "weight": 6.2
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "new-york-city-mayoral-election",
+      "weight": 10.0
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "fed-decision-in-october",
+      "weight": 3.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "nobel-peace-prize-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "first-leader-out-of-power-in-2025",
+      "weight": 10.8
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 9.6
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 7.2
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "f1-drivers-champion",
+      "weight": 7.6
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "uefa-champions-league-winner",
+      "weight": 7.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 11.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "2026-nba-champion",
+      "weight": 12.7
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 5.2
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "world-series-champion-2025",
+      "weight": 20.3
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "netherlands-parliamentary-election",
+      "weight": 5.4
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "bolivia-presidential-election",
+      "weight": 5.9
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 4.5
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "ireland-presidential-election",
+      "weight": 6.8
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 9.6
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "largest-company-end-of-2025",
+      "weight": 7.6
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 7.4
+    },
+    {
+      "source": "super-bowl-champion-2026-731",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 8.0
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "english-premier-league-winner",
+      "weight": 9.2
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "new-york-city-mayoral-election",
+      "weight": 7.1
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "nobel-peace-prize-2025",
+      "weight": 4.7
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "first-leader-out-of-power-in-2025",
+      "weight": 7.9
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 14.6
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 8.1
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "uefa-champions-league-winner",
+      "weight": 10.2
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "2026-nba-champion",
+      "weight": 14.5
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "la-liga-winner-114",
+      "weight": 3.8
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "world-series-champion-2025",
+      "weight": 6.8
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "netherlands-parliamentary-election",
+      "weight": 5.7
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 5.0
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "bolivia-presidential-election",
+      "weight": 3.5
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "ireland-presidential-election",
+      "weight": 8.5
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 6.8
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 5.3
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 8.2
+    },
+    {
+      "source": "democratic-presidential-nominee-2028",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 10.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "new-york-city-mayoral-election",
+      "weight": 6.3
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "fed-decision-in-october",
+      "weight": 3.0
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "first-leader-out-of-power-in-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 11.3
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 6.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "f1-drivers-champion",
+      "weight": 4.5
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "uefa-champions-league-winner",
+      "weight": 10.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 5.0
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "2026-nba-champion",
+      "weight": 10.2
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "la-liga-winner-114",
+      "weight": 6.7
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "world-series-champion-2025",
+      "weight": 5.5
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "netherlands-parliamentary-election",
+      "weight": 7.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "bolivia-presidential-election",
+      "weight": 5.2
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "ireland-presidential-election",
+      "weight": 6.3
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "largest-company-end-of-2025",
+      "weight": 3.6
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 4.2
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 5.2
+    },
+    {
+      "source": "english-premier-league-winner",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 8.2
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "fed-decision-in-october",
+      "weight": 4.3
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "nobel-peace-prize-2025",
+      "weight": 5.8
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "first-leader-out-of-power-in-2025",
+      "weight": 9.2
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 6.7
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 3.9
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "f1-drivers-champion",
+      "weight": 8.9
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "uefa-champions-league-winner",
+      "weight": 6.0
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 8.2
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "2026-nba-champion",
+      "weight": 7.2
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 3.6
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "world-series-champion-2025",
+      "weight": 8.9
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "netherlands-parliamentary-election",
+      "weight": 9.3
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 3.8
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 3.7
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "bolivia-presidential-election",
+      "weight": 9.5
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 3.2
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "ireland-presidential-election",
+      "weight": 5.7
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 6.9
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "largest-company-end-of-2025",
+      "weight": 4.9
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.7
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 6.4
+    },
+    {
+      "source": "new-york-city-mayoral-election",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.0
+    },
+    {
+      "source": "fed-decision-in-october",
+      "target": "what-price-will-ethereum-hit-in-october-167",
+      "weight": 3.2
+    },
+    {
+      "source": "fed-decision-in-october",
+      "target": "what-price-will-bitcoin-hit-in-october-985",
+      "weight": 3.7
+    },
+    {
+      "source": "fed-decision-in-october",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 4.7
+    },
+    {
+      "source": "fed-decision-in-october",
+      "target": "will-polymarket-us-go-live-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "fed-decision-in-october",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "first-leader-out-of-power-in-2025",
+      "weight": 4.8
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 5.4
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 4.4
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "uefa-champions-league-winner",
+      "weight": 3.9
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 4.0
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "2026-nba-champion",
+      "weight": 4.8
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 3.5
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "world-series-champion-2025",
+      "weight": 3.9
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 3.1
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 3.2
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "ireland-presidential-election",
+      "weight": 4.1
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "russia-x-ukraine-ceasefire-in-2025",
+      "weight": 3.5
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.5
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 4.5
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "nobel-peace-prize-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.4
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "mlb-sea-det-2025-10-08",
+      "weight": 28.9
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nhl-lak-las-2025-10-08",
+      "weight": 12.7
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "cfb-msrst-mtnst-2025-10-08",
+      "weight": 9.4
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nfl-phi-nyg-2025-10-09",
+      "weight": 5.5
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nhl-bos-wsh-2025-10-08",
+      "weight": 9.3
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 13.2
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nfl-ten-lv-2025-10-12",
+      "weight": 3.9
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 7.2
+    },
+    {
+      "source": "mlb-mil-chc-2025-10-08",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 3.7
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "republican-presidential-nominee-2028",
+      "weight": 11.0
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 7.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "f1-drivers-champion",
+      "weight": 3.5
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "uefa-champions-league-winner",
+      "weight": 9.8
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 10.1
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "2026-nba-champion",
+      "weight": 14.4
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 4.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "world-series-champion-2025",
+      "weight": 11.5
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 8.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 4.8
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 10.7
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 6.0
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "ireland-presidential-election",
+      "weight": 13.1
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 9.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 7.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 4.4
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 9.6
+    },
+    {
+      "source": "first-leader-out-of-power-in-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 8.3
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "nobel-peace-prize-winner-2025",
+      "weight": 12.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "uefa-champions-league-winner",
+      "weight": 14.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 7.2
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "2026-nba-champion",
+      "weight": 20.3
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "la-liga-winner-114",
+      "weight": 5.6
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 4.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "world-series-champion-2025",
+      "weight": 8.9
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "netherlands-parliamentary-election",
+      "weight": 8.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 6.6
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "bolivia-presidential-election",
+      "weight": 5.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.0
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 3.1
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "ireland-presidential-election",
+      "weight": 11.3
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 9.6
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "largest-company-end-of-2025",
+      "weight": 6.6
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 7.0
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 10.5
+    },
+    {
+      "source": "republican-presidential-nominee-2028",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 15.5
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "nhl-lak-las-2025-10-08",
+      "weight": 10.7
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "cfb-msrst-mtnst-2025-10-08",
+      "weight": 7.8
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "nfl-phi-nyg-2025-10-09",
+      "weight": 4.8
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "nhl-bos-wsh-2025-10-08",
+      "weight": 8.6
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 11.3
+    },
+    {
+      "source": "mlb-sea-det-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 6.6
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "uefa-champions-league-winner",
+      "weight": 12.1
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "2026-nba-champion",
+      "weight": 13.4
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "la-liga-winner-114",
+      "weight": 4.4
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 4.4
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "world-series-champion-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 7.2
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 6.0
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 3.8
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.7
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "ireland-presidential-election",
+      "weight": 7.4
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "will-russia-capture-kupiansk-by",
+      "weight": 3.0
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.9
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.1
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 5.8
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 6.7
+    },
+    {
+      "source": "nobel-peace-prize-winner-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 13.4
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 7.0
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "world-series-champion-2025",
+      "weight": 10.2
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "netherlands-parliamentary-election",
+      "weight": 3.9
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 5.0
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "bolivia-presidential-election",
+      "weight": 4.1
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 3.9
+    },
+    {
+      "source": "f1-drivers-champion",
+      "target": "largest-company-end-of-2025",
+      "weight": 3.1
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 3.1
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "will-base-launch-a-token-in-2025-341",
+      "weight": 5.5
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "meteora-fdv-above-one-day-after-launch",
+      "weight": 5.6
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "lighter-market-cap-fdv-one-day-after-launch",
+      "weight": 6.9
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.4
+    },
+    {
+      "source": "monad-airdrop-by",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "weight": 8.3
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 3.7
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "weight": 6.2
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "next-french-prime-minister-469",
+      "weight": 4.4
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 5.1
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "next-japanese-prime-minister",
+      "weight": 3.1
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 8.5
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "french-election-called-by",
+      "weight": 5.5
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "macron-out-in-2025",
+      "weight": 3.7
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 3.7
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 4.0
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 6.1
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.6
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.2
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 4.7
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "maduro-out-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.5
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 5.4
+    },
+    {
+      "source": "when-will-israel-announce-ceasefire",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 4.9
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 3.0
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "oscars-2026-best-picture-winner",
+      "weight": 4.0
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 3.2
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "elon-musk-of-tweets-october-7-october-14",
+      "weight": 6.5
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 4.7
+    },
+    {
+      "source": "elon-musk-of-tweets-october-3-october-10",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 3.1
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "highest-grossing-movie-in-2025",
+      "weight": 4.5
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "2026-nba-champion",
+      "weight": 16.8
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "la-liga-winner-114",
+      "weight": 5.9
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "world-series-champion-2025",
+      "weight": 5.8
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "netherlands-parliamentary-election",
+      "weight": 9.5
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 5.9
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "bolivia-presidential-election",
+      "weight": 5.4
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.1
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "ireland-presidential-election",
+      "weight": 10.7
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.8
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.0
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 6.3
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 7.7
+    },
+    {
+      "source": "uefa-champions-league-winner",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 13.8
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "2026-nba-champion",
+      "weight": 7.5
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 4.2
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "world-series-champion-2025",
+      "weight": 13.1
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 5.0
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 4.5
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 4.2
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 6.8
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 6.7
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "ireland-presidential-election",
+      "weight": 6.5
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 8.7
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 7.5
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 7.2
+    },
+    {
+      "source": "highest-grossing-movie-in-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.8
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "solana-price-on-october-9",
+      "weight": 3.9
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "ethereum-price-on-october-9",
+      "weight": 4.1
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "bitcoin-price-on-october-9",
+      "weight": 4.4
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "what-price-will-bitcoin-hit-october-6-12",
+      "weight": 4.5
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 8.7
+    },
+    {
+      "source": "bitcoin-above-on-october-9",
+      "target": "ethereum-above-on-october-9",
+      "weight": 8.2
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "la-liga-winner-114",
+      "weight": 5.2
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 4.8
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "world-series-champion-2025",
+      "weight": 10.7
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "netherlands-parliamentary-election",
+      "weight": 9.5
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 7.6
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "bolivia-presidential-election",
+      "weight": 5.6
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.0
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 3.6
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "ireland-presidential-election",
+      "weight": 13.0
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 9.4
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "largest-company-end-of-2025",
+      "weight": 6.8
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 5.9
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 10.3
+    },
+    {
+      "source": "2026-nba-champion",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 17.7
+    },
+    {
+      "source": "la-liga-winner-114",
+      "target": "netherlands-parliamentary-election",
+      "weight": 5.1
+    },
+    {
+      "source": "la-liga-winner-114",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 4.6
+    },
+    {
+      "source": "la-liga-winner-114",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.5
+    },
+    {
+      "source": "la-liga-winner-114",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "la-liga-winner-114",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 5.2
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-october-167",
+      "target": "what-price-will-bitcoin-hit-in-october-985",
+      "weight": 15.2
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-october-167",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 3.0
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-october-167",
+      "target": "what-price-will-solana-hit-in-october-452",
+      "weight": 10.7
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-october-167",
+      "target": "what-price-will-xrp-hit-in-october",
+      "weight": 6.6
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-october-167",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 3.1
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 3.7
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "what-price-will-bitcoin-hit-in-2025",
+      "weight": 3.5
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 3.1
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "what-price-will-solana-hit-in-october-452",
+      "weight": 7.2
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "what-price-will-xrp-hit-in-october",
+      "weight": 4.7
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-october-985",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.1
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "cfb-msrst-mtnst-2025-10-08",
+      "weight": 9.8
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nfl-phi-nyg-2025-10-09",
+      "weight": 4.5
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nhl-bos-wsh-2025-10-08",
+      "weight": 26.4
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 30.5
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nfl-ten-lv-2025-10-12",
+      "weight": 3.1
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 9.2
+    },
+    {
+      "source": "nhl-lak-las-2025-10-08",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 3.0
+    },
+    {
+      "source": "cfb-msrst-mtnst-2025-10-08",
+      "target": "nfl-phi-nyg-2025-10-09",
+      "weight": 3.8
+    },
+    {
+      "source": "cfb-msrst-mtnst-2025-10-08",
+      "target": "nhl-bos-wsh-2025-10-08",
+      "weight": 7.7
+    },
+    {
+      "source": "cfb-msrst-mtnst-2025-10-08",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 9.1
+    },
+    {
+      "source": "cfb-msrst-mtnst-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 6.3
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "when-will-the-government-shutdown-end",
+      "weight": 7.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "weight": 4.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 4.7
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "next-japanese-prime-minister",
+      "weight": 3.5
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 12.9
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "french-election-called-by",
+      "weight": 5.3
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "macron-out-in-2025",
+      "weight": 4.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "will-russia-capture-kupiansk-by",
+      "weight": 3.6
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 7.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 3.5
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 6.4
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 4.3
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "gemini-3pt0-released-by",
+      "weight": 6.0
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 4.0
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 7.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "maduro-out-in-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 9.3
+    },
+    {
+      "source": "will-hamas-release-all-israeli-hostages-by-october-31",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 5.7
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "weight": 10.5
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "oscars-2026-best-actor-winner",
+      "weight": 13.6
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "next-french-prime-minister-469",
+      "weight": 6.6
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "oscars-2026-best-picture-winner",
+      "weight": 24.0
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "richest-person-on-october-31",
+      "weight": 9.0
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 7.8
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "largest-company-end-of-october-716",
+      "weight": 7.1
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 10.2
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 5.6
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 6.4
+    },
+    {
+      "source": "top-spotify-album-2025",
+      "target": "brazil-presidential-election",
+      "weight": 4.6
+    },
+    {
+      "source": "nfl-phi-nyg-2025-10-09",
+      "target": "nhl-bos-wsh-2025-10-08",
+      "weight": 3.3
+    },
+    {
+      "source": "nfl-phi-nyg-2025-10-09",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 3.2
+    },
+    {
+      "source": "nfl-phi-nyg-2025-10-09",
+      "target": "nfl-ten-lv-2025-10-12",
+      "weight": 8.2
+    },
+    {
+      "source": "nfl-phi-nyg-2025-10-09",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 3.3
+    },
+    {
+      "source": "nfl-phi-nyg-2025-10-09",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 10.8
+    },
+    {
+      "source": "xi-jinping-out-in-2025",
+      "target": "macron-out-in-2025",
+      "weight": 3.0
+    },
+    {
+      "source": "xi-jinping-out-in-2025",
+      "target": "russia-x-ukraine-ceasefire-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "xi-jinping-out-in-2025",
+      "target": "maduro-out-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "weight": 3.1
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 4.6
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "next-japanese-prime-minister",
+      "weight": 4.6
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 4.1
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 3.3
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "french-election-called-by",
+      "weight": 3.2
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "will-russia-capture-kupiansk-by",
+      "weight": 3.1
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 4.5
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 4.7
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "gemini-3pt0-released-by",
+      "weight": 5.4
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 5.7
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "maduro-out-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "when-will-the-government-shutdown-end",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 3.9
+    },
+    {
+      "source": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 5.6
+    },
+    {
+      "source": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 3.7
+    },
+    {
+      "source": "what-will-taylor-swift-say-during-tonight-show-on-october-6",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 14.4
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "world-series-champion-2025",
+      "weight": 4.6
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 3.1
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 11.4
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "ireland-presidential-election",
+      "weight": 3.1
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 6.7
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.3
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 4.9
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-in-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 5.3
+    },
+    {
+      "source": "solana-price-on-october-9",
+      "target": "ethereum-price-on-october-9",
+      "weight": 11.6
+    },
+    {
+      "source": "solana-price-on-october-9",
+      "target": "bitcoin-price-on-october-9",
+      "weight": 5.4
+    },
+    {
+      "source": "solana-price-on-october-9",
+      "target": "solana-above-on-october-10",
+      "weight": 4.0
+    },
+    {
+      "source": "solana-price-on-october-9",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 3.0
+    },
+    {
+      "source": "solana-price-on-october-9",
+      "target": "ethereum-above-on-october-9",
+      "weight": 4.7
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "netherlands-parliamentary-election",
+      "weight": 4.9
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 4.9
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 4.6
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 6.8
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 6.4
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "ireland-presidential-election",
+      "weight": 6.9
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 10.4
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 7.4
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 7.0
+    },
+    {
+      "source": "world-series-champion-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 6.3
+    },
+    {
+      "source": "ethereum-price-on-october-9",
+      "target": "bitcoin-price-on-october-9",
+      "weight": 6.6
+    },
+    {
+      "source": "ethereum-price-on-october-9",
+      "target": "solana-above-on-october-10",
+      "weight": 4.6
+    },
+    {
+      "source": "ethereum-price-on-october-9",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 3.3
+    },
+    {
+      "source": "ethereum-price-on-october-9",
+      "target": "ethereum-above-on-october-9",
+      "weight": 6.8
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "oscars-2026-best-actor-winner",
+      "weight": 6.5
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "next-french-prime-minister-469",
+      "weight": 3.9
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "oscars-2026-best-picture-winner",
+      "weight": 9.8
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "richest-person-on-october-31",
+      "weight": 7.9
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 5.5
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "largest-company-end-of-october-716",
+      "weight": 5.1
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 7.3
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 6.5
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 3.1
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.0
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.7
+    },
+    {
+      "source": "which-song-taylor-swifts-the-life-of-a-showgirl-will-be-lowest-rank-on-the-billboard-hot-100-for-the-week-of-october-18",
+      "target": "brazil-presidential-election",
+      "weight": 4.8
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "next-french-prime-minister-469",
+      "weight": 6.4
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "oscars-2026-best-picture-winner",
+      "weight": 14.9
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "richest-person-on-october-31",
+      "weight": 9.0
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 6.0
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "next-japanese-prime-minister",
+      "weight": 3.0
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "largest-company-end-of-october-716",
+      "weight": 7.4
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 8.4
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 3.2
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 6.4
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 3.0
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 6.3
+    },
+    {
+      "source": "oscars-2026-best-actor-winner",
+      "target": "brazil-presidential-election",
+      "weight": 4.9
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "oscars-2026-best-picture-winner",
+      "weight": 7.2
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "richest-person-on-october-31",
+      "weight": 4.8
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 5.9
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "french-election-called-by",
+      "weight": 9.3
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "macron-out-in-2025",
+      "weight": 5.1
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "largest-company-end-of-october-716",
+      "weight": 4.0
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 5.7
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 4.1
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 4.0
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.3
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 5.2
+    },
+    {
+      "source": "next-french-prime-minister-469",
+      "target": "brazil-presidential-election",
+      "weight": 5.0
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "richest-person-on-october-31",
+      "weight": 12.3
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 4.8
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 7.0
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 3.4
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "largest-company-end-of-october-716",
+      "weight": 10.2
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 13.9
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 7.6
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 5.5
+    },
+    {
+      "source": "oscars-2026-best-picture-winner",
+      "target": "brazil-presidential-election",
+      "weight": 4.2
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "weight": 5.3
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "largest-company-end-of-october-716",
+      "weight": 8.9
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 9.1
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 4.4
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 6.2
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 6.3
+    },
+    {
+      "source": "richest-person-on-october-31",
+      "target": "brazil-presidential-election",
+      "weight": 4.3
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "weight": 4.3
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "what-price-will-ethereum-hit-in-2025",
+      "weight": 3.9
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "bolivia-presidential-election",
+      "weight": 9.6
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 4.1
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 3.3
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "ireland-presidential-election",
+      "weight": 6.6
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "largest-company-end-of-2025",
+      "weight": 4.6
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 5.6
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 6.3
+    },
+    {
+      "source": "netherlands-parliamentary-election",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 7.5
+    },
+    {
+      "source": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "target": "bolivia-presidential-election",
+      "weight": 4.3
+    },
+    {
+      "source": "which-party-holds-the-most-seats-after-argentina-deputies-election",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 6.2
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "bolivia-presidential-election",
+      "weight": 3.0
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "ireland-presidential-election",
+      "weight": 4.0
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 5.7
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 4.7
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.7
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 4.8
+    },
+    {
+      "source": "what-price-will-ethereum-hit-in-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 9.1
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "weight": 4.6
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "ireland-presidential-election",
+      "weight": 6.7
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 6.2
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.0
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 4.0
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 5.9
+    },
+    {
+      "source": "bolivia-presidential-election",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.0
+    },
+    {
+      "source": "will-polymarket-us-go-live-in-2025",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "next-japanese-prime-minister",
+      "weight": 4.9
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 4.5
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 5.1
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "french-election-called-by",
+      "weight": 5.0
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "macron-out-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "largest-company-end-of-october-716",
+      "weight": 4.1
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 6.0
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 4.6
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 3.3
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 4.9
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 4.7
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "gemini-3pt0-released-by",
+      "weight": 5.5
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.6
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 5.5
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.1
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 5.7
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 3.2
+    },
+    {
+      "source": "the-life-of-a-showgirl-first-week-album-sales-121",
+      "target": "brazil-presidential-election",
+      "weight": 4.4
+    },
+    {
+      "source": "bitcoin-price-on-october-9",
+      "target": "what-price-will-bitcoin-hit-october-6-12",
+      "weight": 3.2
+    },
+    {
+      "source": "bitcoin-price-on-october-9",
+      "target": "solana-above-on-october-10",
+      "weight": 4.2
+    },
+    {
+      "source": "bitcoin-price-on-october-9",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 4.8
+    },
+    {
+      "source": "bitcoin-price-on-october-9",
+      "target": "ethereum-above-on-october-9",
+      "weight": 4.8
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "weight": 3.4
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "top-spotify-artist-2025-146",
+      "weight": 5.3
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "french-election-called-by",
+      "weight": 4.1
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "macron-out-in-2025",
+      "weight": 3.2
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 3.4
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 5.0
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 3.3
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "gemini-3pt0-released-by",
+      "weight": 4.0
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.7
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.3
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 4.3
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "maduro-out-in-2025",
+      "weight": 3.1
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.8
+    },
+    {
+      "source": "next-japanese-prime-minister",
+      "target": "brazil-presidential-election",
+      "weight": 3.3
+    },
+    {
+      "source": "what-price-will-solana-hit-in-october-452",
+      "target": "what-price-will-xrp-hit-in-october",
+      "weight": 11.3
+    },
+    {
+      "source": "what-price-will-solana-hit-in-october-452",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 3.1
+    },
+    {
+      "source": "elon-musk-of-tweets-october-7-october-14",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 3.6
+    },
+    {
+      "source": "elon-musk-of-tweets-october-7-october-14",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.3
+    },
+    {
+      "source": "elon-musk-of-tweets-october-7-october-14",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.2
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "french-election-called-by",
+      "weight": 6.2
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "macron-out-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 5.9
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 5.2
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 4.0
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "gemini-3pt0-released-by",
+      "weight": 5.1
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 4.5
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "maduro-out-in-2025",
+      "weight": 4.0
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 7.4
+    },
+    {
+      "source": "will-hamas-release-any-more-hostages-by-october-31-318",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 5.7
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 4.4
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 3.3
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.8
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 4.2
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 4.6
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 3.2
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 3.7
+    },
+    {
+      "source": "top-spotify-artist-2025-146",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.2
+    },
+    {
+      "source": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "target": "ireland-presidential-election",
+      "weight": 4.5
+    },
+    {
+      "source": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.4
+    },
+    {
+      "source": "which-party-wins-most-seats-in-argentina-deputies-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "nhl-bos-wsh-2025-10-08",
+      "target": "nhl-cal-edm-2025-10-08",
+      "weight": 27.5
+    },
+    {
+      "source": "nhl-bos-wsh-2025-10-08",
+      "target": "nfl-ten-lv-2025-10-12",
+      "weight": 3.5
+    },
+    {
+      "source": "nhl-bos-wsh-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 7.2
+    },
+    {
+      "source": "nhl-bos-wsh-2025-10-08",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 4.2
+    },
+    {
+      "source": "ireland-presidential-election",
+      "target": "how-many-fed-rate-cuts-in-2025",
+      "weight": 6.8
+    },
+    {
+      "source": "ireland-presidential-election",
+      "target": "largest-company-end-of-2025",
+      "weight": 5.5
+    },
+    {
+      "source": "ireland-presidential-election",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 5.3
+    },
+    {
+      "source": "ireland-presidential-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 8.5
+    },
+    {
+      "source": "ireland-presidential-election",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 8.1
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "macron-out-in-2025",
+      "weight": 10.3
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 3.9
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "what-will-trump-say-during-president-of-finland-events-on-october-9",
+      "weight": 4.0
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "gemini-3pt0-released-by",
+      "weight": 5.1
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.6
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 5.2
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.2
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "maduro-out-in-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.7
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 4.6
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "brazil-presidential-election",
+      "weight": 3.4
+    },
+    {
+      "source": "french-election-called-by",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 3.3
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-october-6-12",
+      "target": "what-price-will-ethereum-hit-october-6-12",
+      "weight": 18.1
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-october-6-12",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 3.9
+    },
+    {
+      "source": "what-price-will-bitcoin-hit-october-6-12",
+      "target": "ethereum-above-on-october-9",
+      "weight": 3.3
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 4.5
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 3.9
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.4
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 3.5
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "maduro-out-in-2025",
+      "weight": 6.3
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 4.1
+    },
+    {
+      "source": "macron-out-in-2025",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 3.4
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "israel-withdraws-from-gaza-in-2025",
+      "weight": 3.9
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 5.7
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.7
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 5.6
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.1
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "maduro-out-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "will-russia-capture-kupiansk-by",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 3.1
+    },
+    {
+      "source": "what-price-will-xrp-hit-in-october",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 4.3
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "russia-x-ukraine-ceasefire-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "will-trump-meet-with-putin-again-by",
+      "weight": 5.0
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "gemini-3pt0-released-by",
+      "weight": 3.5
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 4.9
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "maduro-out-in-2025",
+      "weight": 7.0
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 6.0
+    },
+    {
+      "source": "israel-withdraws-from-gaza-in-2025",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 8.0
+    },
+    {
+      "source": "solana-above-on-october-10",
+      "target": "bitcoin-above-on-october-10",
+      "weight": 9.1
+    },
+    {
+      "source": "solana-above-on-october-10",
+      "target": "ethereum-above-on-october-9",
+      "weight": 4.7
+    },
+    {
+      "source": "largest-company-end-of-october-716",
+      "target": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "weight": 8.1
+    },
+    {
+      "source": "largest-company-end-of-october-716",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 7.8
+    },
+    {
+      "source": "largest-company-end-of-october-716",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 4.1
+    },
+    {
+      "source": "largest-company-end-of-october-716",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 4.4
+    },
+    {
+      "source": "largest-company-end-of-october-716",
+      "target": "brazil-presidential-election",
+      "weight": 4.1
+    },
+    {
+      "source": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "target": "which-company-has-best-ai-model-end-of-october",
+      "weight": 5.0
+    },
+    {
+      "source": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "target": "turnout-in-2025-netherlands-parliamentary-election",
+      "weight": 5.3
+    },
+    {
+      "source": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "target": "gemini-3pt0-released-by",
+      "weight": 4.8
+    },
+    {
+      "source": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 5.2
+    },
+    {
+      "source": "1-free-app-in-the-us-apple-app-store-on-october-10",
+      "target": "brazil-presidential-election",
+      "weight": 3.9
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-october",
+      "target": "gemini-3pt0-released-by",
+      "weight": 4.6
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-october",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 4.6
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-october",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 3.1
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-october",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 8.6
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-october",
+      "target": "brazil-presidential-election",
+      "weight": 4.9
+    },
+    {
+      "source": "turnout-in-next-new-york-city-mayoral-election",
+      "target": "will-hurricane-imelda-make-landfall-in-the-us",
+      "weight": 3.2
+    },
+    {
+      "source": "turnout-in-next-new-york-city-mayoral-election",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 5.0
+    },
+    {
+      "source": "will-base-launch-a-token-in-2025-341",
+      "target": "meteora-fdv-above-one-day-after-launch",
+      "weight": 4.4
+    },
+    {
+      "source": "will-base-launch-a-token-in-2025-341",
+      "target": "lighter-market-cap-fdv-one-day-after-launch",
+      "weight": 5.1
+    },
+    {
+      "source": "will-base-launch-a-token-in-2025-341",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 8.0
+    },
+    {
+      "source": "nhl-cal-edm-2025-10-08",
+      "target": "nba-por-gsw-2025-10-08",
+      "weight": 10.4
+    },
+    {
+      "source": "nhl-cal-edm-2025-10-08",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 3.3
+    },
+    {
+      "source": "meteora-fdv-above-one-day-after-launch",
+      "target": "lighter-market-cap-fdv-one-day-after-launch",
+      "weight": 6.8
+    },
+    {
+      "source": "meteora-fdv-above-one-day-after-launch",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "will-trump-meet-with-putin-again-by",
+      "target": "gemini-3pt0-released-by",
+      "weight": 5.4
+    },
+    {
+      "source": "will-trump-meet-with-putin-again-by",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 8.2
+    },
+    {
+      "source": "will-trump-meet-with-putin-again-by",
+      "target": "maduro-out-in-2025",
+      "weight": 5.2
+    },
+    {
+      "source": "will-trump-meet-with-putin-again-by",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 6.0
+    },
+    {
+      "source": "will-trump-meet-with-putin-again-by",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 4.8
+    },
+    {
+      "source": "how-many-fed-rate-cuts-in-2025",
+      "target": "largest-company-end-of-2025",
+      "weight": 8.8
+    },
+    {
+      "source": "how-many-fed-rate-cuts-in-2025",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.9
+    },
+    {
+      "source": "how-many-fed-rate-cuts-in-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 8.8
+    },
+    {
+      "source": "how-many-fed-rate-cuts-in-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 7.1
+    },
+    {
+      "source": "largest-company-end-of-2025",
+      "target": "2nd-place-in-new-york-city-mayoral-election",
+      "weight": 3.7
+    },
+    {
+      "source": "largest-company-end-of-2025",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 7.9
+    },
+    {
+      "source": "largest-company-end-of-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 5.8
+    },
+    {
+      "source": "turnout-in-2025-netherlands-parliamentary-election",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.9
+    },
+    {
+      "source": "turnout-in-2025-netherlands-parliamentary-election",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 5.1
+    },
+    {
+      "source": "turnout-in-2025-netherlands-parliamentary-election",
+      "target": "brazil-presidential-election",
+      "weight": 3.3
+    },
+    {
+      "source": "lighter-market-cap-fdv-one-day-after-launch",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 4.3
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "will-metamask-launch-a-token-in-2025",
+      "weight": 3.3
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "us-x-venezuela-military-engagement-by-october-31",
+      "weight": 5.2
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "weight": 3.0
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "maduro-out-in-2025",
+      "weight": 3.4
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.8
+    },
+    {
+      "source": "gemini-3pt0-released-by",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 5.4
+    },
+    {
+      "source": "will-metamask-launch-a-token-in-2025",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 3.2
+    },
+    {
+      "source": "us-x-venezuela-military-engagement-by-october-31",
+      "target": "maduro-out-in-2025",
+      "weight": 8.2
+    },
+    {
+      "source": "us-x-venezuela-military-engagement-by-october-31",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 4.1
+    },
+    {
+      "source": "us-x-venezuela-military-engagement-by-october-31",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 6.8
+    },
+    {
+      "source": "us-x-venezuela-military-engagement-by-october-31",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 5.1
+    },
+    {
+      "source": "what-price-will-ethereum-hit-october-6-12",
+      "target": "ethereum-above-on-october-9",
+      "weight": 3.4
+    },
+    {
+      "source": "bitcoin-above-on-october-10",
+      "target": "ethereum-above-on-october-9",
+      "weight": 6.1
+    },
+    {
+      "source": "will-hurricane-imelda-make-landfall-in-the-us",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 3.0
+    },
+    {
+      "source": "will-hurricane-imelda-make-landfall-in-the-us",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 3.3
+    },
+    {
+      "source": "2nd-place-in-new-york-city-mayoral-election",
+      "target": "which-company-has-best-ai-model-end-of-2025",
+      "weight": 4.9
+    },
+    {
+      "source": "2nd-place-in-new-york-city-mayoral-election",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 7.6
+    },
+    {
+      "source": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "target": "tron-ares-opening-weekend-box-office",
+      "weight": 6.8
+    },
+    {
+      "source": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 6.5
+    },
+    {
+      "source": "2025-september-1st-2nd-3rd-hottest-on-record",
+      "target": "brazil-presidential-election",
+      "weight": 5.7
+    },
+    {
+      "source": "tron-ares-opening-weekend-box-office",
+      "target": "which-company-has-second-best-ai-model-end-of-october",
+      "weight": 4.1
+    },
+    {
+      "source": "tron-ares-opening-weekend-box-office",
+      "target": "brazil-presidential-election",
+      "weight": 3.8
+    },
+    {
+      "source": "nfl-ten-lv-2025-10-12",
+      "target": "nfl-ari-ind-2025-10-12",
+      "weight": 27.0
+    },
+    {
+      "source": "maduro-out-in-2025",
+      "target": "israel-strikes-iran-by-october-31",
+      "weight": 5.4
+    },
+    {
+      "source": "maduro-out-in-2025",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 5.5
+    },
+    {
+      "source": "which-company-has-best-ai-model-end-of-2025",
+      "target": "who-will-trump-pardon-in-2025",
+      "weight": 8.7
+    },
+    {
+      "source": "which-company-has-second-best-ai-model-end-of-october",
+      "target": "brazil-presidential-election",
+      "weight": 5.8
+    },
+    {
+      "source": "israel-strikes-iran-by-october-31",
+      "target": "israel-strikes-iran-before-2026",
+      "weight": 11.8
+    }
+  ]
+}
