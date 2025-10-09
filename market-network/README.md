@@ -98,3 +98,4 @@ python3 fetch_data.py
 
 Built to explore Polymarket's API ecosystem and demonstrate data visualization.
 
+

@@ -27,10 +27,14 @@ export default function NetworkGraph() {
   const [data, setData] = useState<NetworkData | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [selectedNodeInfo, setSelectedNodeInfo] = useState<Node | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const selectedNodeRef = useRef<string | null>(null);
   const hoveredEdgeRef = useRef<string | null>(null);
   const edgeLabelsRef = useRef<any>(null);
   const nodeLabelsRef = useRef<any>(null);
+  const nodesRef = useRef<any>(null);
+  const edgesRef = useRef<any>(null);
+  const graphEdgesRef = useRef<any[]>([]);
 
   useEffect(() => {
     fetch("/network.json")
@@ -51,20 +55,27 @@ export default function NetworkGraph() {
 
     const g = svg.append("g");
 
-    // Zoom behavior
+    // Zoom behavior - allow more zoom out
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.5, 3])
+      .scaleExtent([0.1, 4])
       .on("zoom", (event) => {
         g.attr("transform", event.transform);
       });
 
     svg.call(zoom as any);
 
-    // Filter nodes by category
-    const filteredNodes =
-      selectedCategory === "all"
-        ? data.nodes
-        : data.nodes.filter((n) => n.category === selectedCategory);
+    // Filter nodes by category and search
+    let filteredNodes = selectedCategory === "all"
+      ? data.nodes
+      : data.nodes.filter((n) => n.category === selectedCategory);
+    
+    // Apply search filter
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filteredNodes = filteredNodes.filter((n) => 
+        n.label.toLowerCase().includes(query)
+      );
+    }
     
     const nodeIds = new Set(filteredNodes.map((n) => n.id));
     const filteredEdges = data.edges.filter(
@@ -83,7 +94,7 @@ export default function NetworkGraph() {
     }));
     const graphEdges = filteredEdges.map(e => ({...e}));
 
-    // Simulation - MUCH more spacing for readability
+    // Simulation - balanced clustering with readable labels
     const simulation = d3
       .forceSimulation(graphNodes as any)
       .force(
@@ -91,14 +102,14 @@ export default function NetworkGraph() {
         d3
           .forceLink(graphEdges)
           .id((d: any) => d.id)
-          .distance(250)
-          .strength(0.15)
+          .distance(120)
+          .strength(0.3)
       )
-      .force("charge", d3.forceManyBody().strength(-600))
+      .force("charge", d3.forceManyBody().strength(-250))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(55))
-      .force("x", d3.forceX(width / 2).strength(0.01))
-      .force("y", d3.forceY(height / 2).strength(0.01))
+      .force("collision", d3.forceCollide().radius(35))
+      .force("x", d3.forceX(width / 2).strength(0.05))
+      .force("y", d3.forceY(height / 2).strength(0.05))
       .alphaDecay(0.02)
       .velocityDecay(0.4);
 
@@ -153,6 +164,9 @@ export default function NetworkGraph() {
     
     edgeLabelsRef.current = edgeLabel;
 
+    // Store graph edges for external access
+    graphEdgesRef.current = graphEdges;
+
     // Nodes
     const node = g
       .append("g")
@@ -166,6 +180,13 @@ export default function NetworkGraph() {
       .style("cursor", "pointer")
       .on("click", function(event, d: any) {
         event.stopPropagation();
+        
+        // Open Polymarket URL on Ctrl/Cmd+Click
+        if (event.ctrlKey || event.metaKey) {
+          window.open(`https://polymarket.com/event/${d.id}`, '_blank');
+          return;
+        }
+        
         selectedNodeRef.current = d.id;
         setSelectedNodeInfo({...d});
         
@@ -233,6 +254,54 @@ export default function NetworkGraph() {
       .style("opacity", (d) => d.traders > 3000 ? 1 : 0);
     
     nodeLabelsRef.current = label;
+    nodesRef.current = node;
+    edgesRef.current = link;
+
+    // Function to highlight a node from outside D3
+    const highlightNode = (nodeId: string) => {
+      const nodeData = graphNodes.find((n: any) => n.id === nodeId);
+      if (!nodeData) return;
+
+      selectedNodeRef.current = nodeId;
+      setSelectedNodeInfo(nodeData);
+
+      // Find connected node IDs
+      const connectedIds = new Set<string>();
+      connectedIds.add(nodeId);
+      graphEdgesRef.current.forEach((edge: any) => {
+        if (edge.source.id === nodeId) connectedIds.add(edge.target.id);
+        if (edge.target.id === nodeId) connectedIds.add(edge.source.id);
+      });
+
+      // Highlight nodes
+      node
+        .attr("stroke-width", 1.5)
+        .attr("opacity", (n: any) => connectedIds.has(n.id) ? 1 : 0.3);
+      
+      node.filter((n: any) => n.id === nodeId)
+        .attr("stroke-width", 4)
+        .attr("opacity", 1);
+
+      // Highlight edges
+      link
+        .attr("stroke-opacity", (e: any) => 
+          (e.source.id === nodeId || e.target.id === nodeId) ? 0.6 : 0.05
+        )
+        .attr("stroke-width", (e: any) => 
+          (e.source.id === nodeId || e.target.id === nodeId) ? 1.5 : 0.5
+        );
+
+      // Highlight labels
+      if (nodeLabelsRef.current) {
+        nodeLabelsRef.current
+          .style("opacity", (n: any) => 
+            n.traders > 3000 || connectedIds.has(n.id) ? 1 : 0
+          );
+      }
+    };
+
+    // Store highlight function in window for external access
+    (window as any).highlightNode = highlightNode;
 
     // Tooltips
     node.append("title").text(
@@ -276,7 +345,7 @@ export default function NetworkGraph() {
     return () => {
       simulation.stop();
     };
-  }, [data, selectedCategory]);
+  }, [data, selectedCategory, searchQuery]);
 
   if (!data) {
     return (
@@ -311,6 +380,17 @@ export default function NetworkGraph() {
         </div>
       </div>
 
+      {/* Search Bar */}
+      <div className="mb-4">
+        <input
+          type="text"
+          placeholder="Search events..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-blue-500"
+        />
+      </div>
+
       {/* Category Filters */}
       <div className="flex gap-2 flex-wrap">
         {categories.slice(0, 15).map((cat) => (
@@ -334,14 +414,14 @@ export default function NetworkGraph() {
         ))}
       </div>
 
-      <div className="bg-gray-900 rounded-lg overflow-hidden border border-gray-800">
+      <div className="overflow-hidden">
         <svg ref={svgRef} className="w-full cursor-grab active:cursor-grabbing" style={{ height: "800px" }} />
       </div>
       
       {selectedNodeInfo && (
         <div className="mt-4 space-y-4">
           <div className="p-4 bg-gray-800 rounded-lg border border-gray-700">
-            <div className="flex items-start justify-between mb-3">
+            <div className="flex items-start justify-between mb-2">
               <h3 className="font-semibold text-white text-lg flex-1">
                 {selectedNodeInfo.label}
               </h3>
@@ -350,6 +430,17 @@ export default function NetworkGraph() {
                 style={{ backgroundColor: categoryColors(selectedNodeInfo.category) as string }}
               />
             </div>
+            <a 
+              href={`https://polymarket.com/event/${selectedNodeInfo.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 text-sm flex items-center gap-1 mb-3"
+            >
+              View on Polymarket
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
             <div className="grid grid-cols-3 gap-4 text-sm">
               <div>
                 <div className="text-gray-500 text-xs">Category</div>
@@ -425,7 +516,7 @@ export default function NetworkGraph() {
       )}
       
       <div className="text-xs text-gray-500 text-center mt-2">
-        Click node to select • Hover edge to see % • Drag to pan • Scroll to zoom
+        Click node to select • Cmd/Ctrl+Click to open on Polymarket • Hover edge to see % • Drag to pan • Scroll to zoom
       </div>
 
       {/* Analytics Section */}
@@ -436,21 +527,41 @@ export default function NetworkGraph() {
           {/* Top Connected Events */}
           <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
             <h4 className="text-sm font-medium text-gray-400 mb-3">Most Connected Events</h4>
-            <div className="space-y-2">
+            <div className="space-y-2 max-h-64 overflow-y-auto">
               {(() => {
+                // Filter nodes by category first
+                const filteredNodes = selectedCategory === "all" 
+                  ? data.nodes 
+                  : data.nodes.filter((n: any) => n.category === selectedCategory);
+                const nodeIds = new Set(filteredNodes.map((n: any) => n.id));
+                
+                // Filter edges to only include filtered nodes
+                const filteredEdges = data.edges.filter((e: any) => 
+                  nodeIds.has(e.source) && nodeIds.has(e.target)
+                );
+                
                 const connectionCounts: { [key: string]: number } = {};
-                data.edges.forEach((edge: any) => {
+                filteredEdges.forEach((edge: any) => {
                   connectionCounts[edge.source] = (connectionCounts[edge.source] || 0) + 1;
                   connectionCounts[edge.target] = (connectionCounts[edge.target] || 0) + 1;
                 });
+                
                 return Object.entries(connectionCounts)
                   .sort((a, b) => b[1] - a[1])
-                  .slice(0, 5)
                   .map(([id, count]) => {
                     const node = data.nodes.find((n: any) => n.id === id);
                     return node ? (
                       <div key={id} className="flex justify-between items-center text-sm">
-                        <span className="text-white truncate flex-1">{node.label.substring(0, 35)}...</span>
+                        <span 
+                          className="text-white truncate flex-1 cursor-pointer hover:text-blue-400"
+                          onClick={() => {
+                            if ((window as any).highlightNode) {
+                              (window as any).highlightNode(id);
+                            }
+                          }}
+                        >
+                          {node.label.substring(0, 35)}...
+                        </span>
                         <span className="text-blue-400 font-medium ml-2">{count}</span>
                       </div>
                     ) : null;
@@ -462,24 +573,53 @@ export default function NetworkGraph() {
           {/* Strongest Connections */}
           <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
             <h4 className="text-sm font-medium text-gray-400 mb-3">Strongest Overlaps</h4>
-            <div className="space-y-2">
-              {data.edges
-                .sort((a: any, b: any) => b.weight - a.weight)
-                .slice(0, 5)
-                .map((edge: any, idx: number) => {
-                  const sourceNode = data.nodes.find((n: any) => n.id === edge.source);
-                  const targetNode = data.nodes.find((n: any) => n.id === edge.target);
-                  return (
-                    <div key={idx} className="text-sm">
-                      <div className="flex justify-between items-center">
-                        <span className="text-white text-xs truncate flex-1">
-                          {sourceNode?.label.substring(0, 15)}... ↔ {targetNode?.label.substring(0, 15)}...
-                        </span>
-                        <span className="text-blue-400 font-medium ml-2">{edge.weight.toFixed(1)}%</span>
+            <div className="space-y-2 max-h-64 overflow-y-auto">
+              {(() => {
+                // Filter nodes by category first
+                const filteredNodes = selectedCategory === "all" 
+                  ? data.nodes 
+                  : data.nodes.filter((n: any) => n.category === selectedCategory);
+                const nodeIds = new Set(filteredNodes.map((n: any) => n.id));
+                
+                // Filter edges to only include filtered nodes
+                return data.edges
+                  .filter((e: any) => nodeIds.has(e.source) && nodeIds.has(e.target))
+                  .sort((a: any, b: any) => b.weight - a.weight)
+                  .map((edge: any, idx: number) => {
+                    const sourceNode = data.nodes.find((n: any) => n.id === edge.source);
+                    const targetNode = data.nodes.find((n: any) => n.id === edge.target);
+                    return (
+                      <div key={idx} className="text-sm">
+                        <div className="flex justify-between items-center gap-1">
+                          <div className="flex items-center gap-1 flex-1 min-w-0">
+                            <span 
+                              className="text-white text-xs truncate cursor-pointer hover:text-blue-400"
+                              onClick={() => {
+                                if ((window as any).highlightNode) {
+                                  (window as any).highlightNode(edge.source);
+                                }
+                              }}
+                            >
+                              {sourceNode?.label.substring(0, 15)}...
+                            </span>
+                            <span className="text-gray-500 text-xs">↔</span>
+                            <span 
+                              className="text-white text-xs truncate cursor-pointer hover:text-blue-400"
+                              onClick={() => {
+                                if ((window as any).highlightNode) {
+                                  (window as any).highlightNode(edge.target);
+                                }
+                              }}
+                            >
+                              {targetNode?.label.substring(0, 15)}...
+                            </span>
+                          </div>
+                          <span className="text-blue-400 font-medium text-xs ml-2">{edge.weight.toFixed(1)}%</span>
+                        </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  });
+              })()}
             </div>
           </div>
 

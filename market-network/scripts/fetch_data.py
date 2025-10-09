@@ -1,10 +1,33 @@
 import requests
 import json
+import time
 
 GAMMA_API = "https://gamma-api.polymarket.com"
 PNL_SUBGRAPH = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/pnl-subgraph/0.0.14/gn"
 
-def get_active_events(limit=50):
+def normalize_category(tags):
+    """Clean up messy Polymarket categories"""
+    if not tags:
+        return "Other"
+    
+    label = tags[0].get("label", "").lower()
+    
+    if any(x in label for x in ["politic", "election", "trump", "biden", "congress", "president"]):
+        return "Politics"
+    elif any(x in label for x in ["sport", "nfl", "nba", "soccer", "football", "baseball"]):
+        return "Sports"
+    elif any(x in label for x in ["crypto", "bitcoin", "ethereum", "defi", "web3", "blockchain"]):
+        return "Crypto"
+    elif any(x in label for x in ["pop culture", "culture", "celebrity", "kardashian", "taylor"]):
+        return "Culture"
+    elif any(x in label for x in ["entertainment", "movie", "music", "tv", "award", "oscar"]):
+        return "Entertainment"
+    elif any(x in label for x in ["tech", "ai", "silicon", "startup", "elon", "openai"]):
+        return "Tech"
+    else:
+        return tags[0].get("label", "Other")
+
+def get_active_events(limit=250):
     print(f"Fetching {limit} active events...")
     
     response = requests.get(
@@ -25,14 +48,13 @@ def get_active_events(limit=50):
             total_volume += float(market.get("volumeNum", 0))
         
         if token_ids and total_volume > 5000:
-            tags = event.get("tags", [])
-            category = tags[0].get("label", "Other") if tags else "Other"
+            category = normalize_category(event.get("tags", []))
             
             events_data.append({
                 "title": event.get("title", "Unknown"),
                 "slug": event.get("slug", ""),
                 "category": category,
-                "token_ids": token_ids,
+                "token_ids": token_ids[:20],  # Top 20 tokens only
                 "volume": total_volume
             })
     
@@ -99,9 +121,13 @@ def calculate_overlaps(events_data):
     return event_traders, edges
 
 def main():
-    events_data = get_active_events(50)
+    start = time.time()
+    
+    # Fetch 250 events
+    events_data = get_active_events(250)
     event_traders, edges = calculate_overlaps(events_data)
     
+    # Build nodes list - ONLY include events that have trader data
     nodes = []
     for event in events_data:
         slug = event["slug"]
@@ -114,19 +140,30 @@ def main():
                 "volume": event["volume"]
             })
     
+    print(f"\n📊 FINAL COUNTS:")
+    print(f"  Fetched: {len(events_data)} events from API")
+    print(f"  With traders: {len(nodes)} events")
+    print(f"  Connections: {len(edges)}")
+    
     network = {
         "nodes": nodes,
         "edges": edges
     }
     
-    with open("../public/network.json", "w") as f:
+    # Write to file (mode 'w' overwrites completely)
+    output_path = "../public/network.json"
+    with open(output_path, "w") as f:
         json.dump(network, f, indent=2)
     
+    print(f"\n✅ Wrote to: {output_path}")
+    
+    elapsed = time.time() - start
     total_vol = sum(n["volume"] for n in nodes)
     print(f"\n✓ network.json")
     print(f"  {len(nodes)} events")
     print(f"  {len(edges)} connections")
     print(f"  ${total_vol:,.0f} volume")
+    print(f"  {elapsed:.1f}s elapsed")
 
 if __name__ == "__main__":
     main()
