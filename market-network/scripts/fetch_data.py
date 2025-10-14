@@ -151,7 +151,9 @@ def main():
     }
     
     # Write to file (mode 'w' overwrites completely)
-    output_path = "../public/network.json"
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(script_dir, "..", "public", "network.json")
     with open(output_path, "w") as f:
         json.dump(network, f, indent=2)
     

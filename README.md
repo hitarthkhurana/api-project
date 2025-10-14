@@ -8,7 +8,7 @@ Two projects exploring Polymarket's APIs and prediction markets.
 
 Uses force-directed graph (D3.js) to reveal market correlations based on trader overlap. Helps identify cross-market patterns and trader behavior.
 
-**Tech:** Next.js, TypeScript, Tailwind, shadcn/ui, D3.js  
+**Tech:** Next.js, TypeScript, Tailwind CSS, D3.js  
 **APIs:** Gamma (market data), PNL Subgraph (trader positions)
 
 [See market-network/README.md](market-network/README.md)
